@@ -51,7 +51,7 @@ with open('nada.csv' , 'r') as csvFile:
                     r = requests.post(url=url, json=payload, cookies=cookie)
                     print r.text
                     print("nada")
-
+#######
 
 
 
